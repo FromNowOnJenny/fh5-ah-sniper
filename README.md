@@ -6,6 +6,7 @@ python script to snipe cars in forza by screenshotting &amp; key press simulatio
 * requires launch arguments if your screen is not 1920x1080
 * FH5 has a limit of ho many cars you can buy in the AH every day, this program will not bypass that
 * the program is still in development and therefore spamming StdOut very much
+* Use the *-d* argument if you snipe many cars, or other players might report you
 * this program is derived from [this program](https://github.com/Scruffydrew/Forza-Horizon-5-Auction-House-Sniper)
 
 ## How to use
@@ -23,5 +24,5 @@ python script to snipe cars in forza by screenshotting &amp; key press simulatio
 * -x: screen width (default: 1920)
 * -y: screen height (default: 1080)
 * -c: amount of cars to snipe (default: 9999)
-
-## IMPORTANT
+* -w: time (in seconds) to wait before the program starts
+* -d: delay after sniping a car (in seconds), to avoid suspicion
